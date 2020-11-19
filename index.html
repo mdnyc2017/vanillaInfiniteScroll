@@ -2,15 +2,21 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-sacle=1.0">
-        <title>Template</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Infinite Scroll Jest</title>
         <link rel="icon" type="image/png" href="https://www.google.com/s2/favicons?domain=udemy.com/">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <i class="fab fa-accusoft"></i>
-
+        <h1>Unsplash API- Infinitely Scrolled</h1>
+        <!-- Loader -->
+        <div class="loader" id="loader">
+            <img src="loader.svg" alt="loader">
+        </div>
+        <!-- image container -->
+        <div class="image-container" id="image-container">
+            <img src="https://images.unsplash.com/photo-1550687768-889be2cc0dd1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" alt="">
+        </div>
         <!-- Script -->
         <script src="script.js"></script>
     </body>
